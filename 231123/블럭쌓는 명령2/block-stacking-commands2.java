@@ -25,7 +25,7 @@ public class Main {
 			b[i] = Integer.parseInt(st.nextToken());
 		}
 
-		for (int i = 0; i < k; i++) {
+		for (int i = 1; i <= k; i++) {
 			for (int j = a[i]; j <= b[i]; j++) {
 				blocks[i]++;
 			}
