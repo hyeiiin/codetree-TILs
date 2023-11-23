@@ -6,12 +6,10 @@ import java.util.StringTokenizer;
 
 public class Main {
 
-public static final int MAX_N = 100;
-    public static final int MAX_K = 100;
 	public static int n, k;
-	public static int[] a = new int[MAX_K + 1];
-	public static int[] b = new int[MAX_K + 1];
-	public static int[] blocks = new int[MAX_K + 1];
+	public static int[] a = new int[101];
+	public static int[] b = new int[101];
+	public static int[] blocks = new int[101];
 
 	public static void main(String[] args) throws IOException {
 
@@ -29,7 +27,7 @@ public static final int MAX_N = 100;
 
 		for (int i = 1; i <= k; i++) {
 			for (int j = a[i]; j <= b[i]; j++) {
-				blocks[i]++;
+				blocks[j]++;
 			}
 		}
 
