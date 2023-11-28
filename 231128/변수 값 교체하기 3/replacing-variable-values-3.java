@@ -1,8 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         int a = 3, b = 5;
-        int temp;
-        temp = a;
+        int temp = a;
         a = b;
         b = temp;
         System.out.println(a);
