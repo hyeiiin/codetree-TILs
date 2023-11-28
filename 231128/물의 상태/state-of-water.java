@@ -4,7 +4,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int t = sc.nextInt();
         if (t < 0) System.out.print("ice");
-        else if (t >= 0) System.out.print("vapor");
+        else if (t >= 100) System.out.print("vapor");
         else System.out.print("water");
     }
 }
