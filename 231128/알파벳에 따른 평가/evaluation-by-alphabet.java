@@ -7,6 +7,7 @@ public class Main {
         else if (c == 'A') System.out.print("Excellent");
         else if (c == 'B') System.out.print("Good");
         else if (c == 'C') System.out.print("Usually");
-        else System.out.print("Effort");
+        else if (c == 'D') System.out.print("Effort");
+        else System.out.print("Failure");
     }
 }
