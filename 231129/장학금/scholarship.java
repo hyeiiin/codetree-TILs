@@ -4,12 +4,10 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int midScore = sc.nextInt(), finalScore = sc.nextInt();
         if (midScore >= 90) {
-            if (finalScore >= 95) System.out.print(10);
-            else if (finalScore >= 90) System.out.print(5);
+            if (finalScore >= 95) System.out.print(100000);
+            else if (finalScore >= 90) System.out.print(50000);
             else System.out.print(0);
         }
-        else System.out.print(0);
-
-        
+        else System.out.print(0);     
     }
 }
