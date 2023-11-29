@@ -3,9 +3,9 @@ public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int m = sc.nextInt();
-        if (3 <= m && m <= 5) System.out.print("Spring");       
-        else if (6 <= m && m <= 8) System.out.print("Summer");       
-        else if (9 <= m && m <= 11) System.out.print("Fall");       
-        else  System.out.print("Winter");       
+        if (m >= 12 || m <= 2) System.out.print("Winter");
+        else if (m <= 5) System.out.print("Spring");
+        else if (m <= 8) System.out.print("Summer");
+        else System.out.print("Fall");       
     }
 }
