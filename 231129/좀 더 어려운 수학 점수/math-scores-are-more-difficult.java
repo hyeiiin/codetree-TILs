@@ -4,9 +4,10 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int aMath = sc.nextInt(), aEng = sc.nextInt();
         int bMath = sc.nextInt(), bEng = sc.nextInt();
-        if (aMath > bMath) System.out.print("A");
-        else if (aMath < bMath) System.out.print("B");
-        else if (aEng > bEng) System.out.print("A");
-        else System.out.print("B");
+        if (aMath > bMath || (aMath == bMath && aEng > bEng)) {
+            System.out.print("A");
+        } else {
+            System.out.print("B");
+        }
     }
 }
